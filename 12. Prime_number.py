@@ -1,6 +1,6 @@
 n = int(input("enter number: "))
 count = True
-for i in range(2,n//2):
+for i in range(2,n//2+1):
     if n%i == 0:
         count = False
         break
